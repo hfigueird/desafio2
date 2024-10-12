@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos Avançados</title>
+  </head>
+  <body>
+    <header>
+      <h1>Seja bem-vindo!</h1>
+    </header>
+    <main>
+      <section><h2>Sobre o site:</h2></section>
+      <p>O site foi criado para apresentar informações sobre mim. É um portfólio pessoal e também um meio de comunicação para que pessoas interessadas possam entrar em contato comigo.</p>
+      <section id="secao1">
+        <h2>Minhas habilidades:</h2>
+      <nav>
+        <ul>
+          <li><a href=>HTML</a></li>
+          <li><a href=>CSS</a></li>
+          <li><a href=>Phyton</a></li>
+          <li><a href=>JavaScript</a></li>
+          <li><a href=>Criadora do aplicativo de busca para profissionais de TEA (Atypical Parents)</a></li>
+        </ul>
+        <h2>Interesses profissionais:</h2>
+        <ul>
+          <li>Desenvolvimento full-stack</li>
+          <li>Pesquisas sobre tecnologia</li>
+          <li>Acessibilidade e novas tecnologias</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Valores pessoais:</h2>
+        <ol>
+          <li>Criatividade</li>
+          <li>Vontade de aprender</li>
+          <li>Flexibilidade e integridade</li>
+        </ol>
+      </section>
+      <section id="formulario">
+        <h2>Formulário de Contato</h2>
+        <h4>
+          Se você deseja entrar em contato comigo, preencha o formulário abaixo:
+        </h4>
+        <form action="#" method="POST">
+          <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required /><br /><br />
+            <p>Gênero:</p>
+            <input
+              type="radio"
+              id="masculino"
+              name="genero"
+              value="masculino"
+            />
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="genero" value="feminino" />
+            <label for="feminino">Feminino</label><br /><br />
+            <label for="newsletter">
+              <input type="checkbox" id="newsletter" name="newsletter" />
+              Desejo receber notificações </label
+            ><br /><br />
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required /><br /><br />
+            <br /><br />
+            <label for="pais">Selecione seu país:</label>
+            <select id="pais" name="pais">
+              <option value="brasil">Brasil</option>
+              <option value="portugal">Portugal</option>
+              <option value="angola">Angola</option></select
+            ><br /><br />
+            <button type="submit">Enviar</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <aside>
+      <h3>Links Relacionados</h3>
+      <ul>
+        <a href="www.linkedin.com/in/hávila-figueiredo-348a27288">Meu linkedin</a>
+      </ul>
+    </aside>
+    <footer>
+      <p>&copy; 2024 - Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
